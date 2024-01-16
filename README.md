@@ -6,6 +6,8 @@ Copy the relevant .h files to the ESPHome configuration folder next to your YAML
 A subfolder should also work, change the includes accordingly.
 
 ## Smooth wipe
+Transitions to the specified color, wiping from one end of the strip to the other with a smooth leading edge. Transition length, edge size and direction can be specified.
+
 ```yaml
 esphome:
   includes:
